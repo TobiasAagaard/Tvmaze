@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap");
 * {
   padding: 0;
-  margin: 0;
+  margin-top: 0;
   box-sizing: border-box;
   font-family: "Josefin Sans", sans-serif;
   scroll-behavior: smooth;
@@ -46,7 +46,7 @@ header nav ul li {
 header nav ul li a {
   position: relative;
   text-decoration: none;
-  color: #726EB8;
+  color: #726eb8;
   font-size: 30px;
   transition: 0.3s ease-out;
 }
@@ -61,7 +61,7 @@ header nav ul li a:after {
   transition: 0.3s ease-out;
 }
 header nav ul li a:hover {
-  color: #D9D7FA;
+  color: #d9d7fa;
 }
 header nav ul li a:hover:after {
   width: 100%;
@@ -92,7 +92,7 @@ header nav ul li a:hover:after {
   cursor: pointer;
 }
 .cards .container .genres {
-  color: #726EB8;
+  color: #726eb8;
   font-size: 18px;
 }
 .cards .container .runtime {
@@ -156,12 +156,12 @@ footer ul li {
 }
 footer ul li a {
   text-decoration: none;
-  color: #726EB8;
+  color: #726eb8;
   font-size: 20px;
   transition: 0.3s ease-out;
 }
 footer ul li a:hover {
-  color: #D9D7FA;
+  color: #d9d7fa;
 }
 footer .fa {
   padding: 10px;
@@ -176,5 +176,5 @@ footer .fa {
 }
 footer p {
   padding-bottom: 20px;
-  color: #D9D7FA;
+  color: #d9d7fa;
 }/*# sourceMappingURL=styling.css.map */
