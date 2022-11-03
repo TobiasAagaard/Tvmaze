@@ -75,10 +75,25 @@ header {
   }
 }
 
+//buttons
+fieldset {
+  margin-top: 12rem;
+  display: flex;
+  justify-content: center;
+  border: none;
+
+  .sorting {
+    margin: 1rem 2rem;
+    padding: 0.5rem;
+    background: linear-gradient(to left, #743ad5, #d53a9d);
+    color: white;
+    border-radius: 5px;
+  }
+}
 // "MOVIES" STYLING
 
 #movies {
-  margin-top: 220px;
+  margin-top: 1rem;
   width: 100%;
   background-color: r;
   display: grid;

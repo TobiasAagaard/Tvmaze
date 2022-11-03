@@ -3,7 +3,6 @@ const apiData = [];
 const apiEndpoint = "http://api.tvmaze.com/show";
 
 const section = document.getElementById("movies");
-const numCards = 5;
 
 const fetchShow = () => {
   fetch(apiEndpoint)
