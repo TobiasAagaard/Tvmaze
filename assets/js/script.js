@@ -20,7 +20,7 @@ const fetchShow = () => {
       apiData[0].map((obj) => cards(obj));
     });
 };
-7;
+
 
 const cards = (data) => {
   section.innerHTML += `
