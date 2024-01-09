@@ -67,8 +67,14 @@ header nav ul li a:hover:after {
   width: 100%;
 }
 
+fieldset {
+  margin: 9rem 0 2rem 0;
+}
+fieldset legend {
+  color: #fff;
+}
+
 #movies {
-  margin-top: 220px;
   width: 100%;
   background-color: r;
   display: grid;

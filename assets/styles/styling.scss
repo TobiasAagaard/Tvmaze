@@ -77,10 +77,17 @@ header{
     }
 }
 
+fieldset {
+    margin: 9rem 0 2rem 0;
+
+    legend {
+        color: #fff;
+    }
+}
+
 // "MOVIES" STYLING
 
 #movies {
-    margin-top: 220px;
     width: 100%;
     background-color: r;
     display: grid;      
